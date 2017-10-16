@@ -6,7 +6,8 @@ from 5V to 36V.
 
 ![M-Bus schematics](/pic/mbus.gif)
 
-Tested with one [Schrack "EPH"](/pic/schrack-kwh-mbus.jpg) kWh-meter connected.
+Tested with one 
+![Schrack "EPH"](/pic/schrack-kwh-mbus.jpg) kWh-meter connected.
 Software used was [python M-Bus implementation](https://github.com/ganehag/pyMeterBus)
 running on linux with USB-serial module FT232R.
 8kHz PWM was generated with ESP8266:
