@@ -231,7 +231,7 @@ Text Label 3500 4250 0    60   ~ 0
 Text Label 3250 3600 0    60   ~ 0
 36V
 $Comp
-L Q_PNP_BCE Q3
+L Q_PNP_ECB Q3
 U 1 1 59E33598
 P 4350 4250
 F 0 "Q3" H 4250 4100 50  0000 L CNN
@@ -363,17 +363,6 @@ F 3 "" H 5050 4050 50  0001 C CNN
 	1    5050 4050
 	-1   0    0    1   
 $EndComp
-$Comp
-L +3V3 #PWR7
-U 1 1 59E34677
-P 5050 3900
-F 0 "#PWR7" H 5050 3750 50  0001 C CNN
-F 1 "+3V3" H 5050 4040 50  0000 C CNN
-F 2 "" H 5050 3900 50  0001 C CNN
-F 3 "" H 5050 3900 50  0001 C CNN
-	1    5050 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5050 4200 5050 4250
 Wire Wire Line
@@ -413,13 +402,24 @@ TX
 Text GLabel 1900 4300 0    60   Input ~ 0
 8kHz
 Text Notes 5400 4300 0    60   ~ 0
-Serial output
-Text Notes 2650 4850 0    60   ~ 0
-Serial input
+3.3V TTL Serial output
+Text Notes 2250 4850 0    60   ~ 0
+3.3V TTL Serial input
 Text Notes 1150 4450 0    60   ~ 0
 f=8kHz \n58% DTC\n3.3V input
 Text Notes 4600 5050 0    60   ~ 0
 R5: 82-390 ohm
 Text Notes 2100 3900 0    60   ~ 0
 L1=8/f
+$Comp
+L +3.3V #PWR?
+U 1 1 59E48729
+P 5050 3900
+F 0 "#PWR?" H 5050 3750 50  0001 C CNN
+F 1 "+3.3V" H 5050 4040 50  0000 C CNN
+F 2 "" H 5050 3900 50  0001 C CNN
+F 3 "" H 5050 3900 50  0001 C CNN
+	1    5050 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
