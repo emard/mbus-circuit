@@ -375,7 +375,7 @@ MBUS-
 Wire Wire Line
 	4450 4000 4550 4000
 Connection ~ 4450 4000
-Text GLabel 3350 4800 0    60   Input ~ 0
+Text GLabel 3400 4800 0    60   Input ~ 0
 RX
 Text GLabel 5200 4250 2    60   Input ~ 0
 TX
@@ -383,7 +383,7 @@ Text GLabel 1850 4300 0    60   Input ~ 0
 8kHz
 Text Notes 5400 4300 0    60   ~ 0
 3.3V TTL\nSerial output
-Text Notes 2600 4900 0    60   ~ 0
+Text Notes 2650 4900 0    60   ~ 0
 3.3V TTL\nSerial input
 Text Notes 1100 4450 0    60   ~ 0
 f=8kHz \n58% DTC\n3.3V input
