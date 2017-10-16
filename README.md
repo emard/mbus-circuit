@@ -20,9 +20,16 @@ running on linux with USB-serial module FT232R.
     analogWriteFreq(8000);
     analogWrite(PWM_PIN, 600);
 
-# Issues
+
+# Electrical considerations
 
 The 36V power supply is weak and it might not be
 sufficient for M-Bus loaded with many devices.
 Lower R5 value should be used for more devices on the bus,
 experimental range is 82-390 ohm.
+
+Most general-purpose silicon BJT transistors in cheap 
+plastic TO-92 package should work. For Q1 and Q3 choose
+some with Ic >= 0.7A and Vceo >= 40V
+
+Mains voltage 230V AC can be shocking if touched.
