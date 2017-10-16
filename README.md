@@ -5,9 +5,9 @@ Features TTL level shifter with simple DC-DC boost converter
 from 5V to 36V.
 
 ![M-Bus schematics](/pic/mbus.gif)
+![Schrack "EPH"](/pic/schrack-kwh-mbus.jpg)
 
 Tested with one 
-![Schrack "EPH"](/pic/schrack-kwh-mbus.jpg)
 [Schrack "EPH" kWh-meter](https://www.schrack.com/shop/control-technology-engineering/kwh-meters/digital-kwh-meter-with-mid-series-miz/miz-kwh-2-wire-kwh-meter-32a-directm-w-m-bus-and-mid-mgmiz632.html) 
 connected to M-Bus pins 23
 and 24 (any polarity works).
