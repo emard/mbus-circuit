@@ -31,6 +31,8 @@ experimental range is 82-390 ohm.
 Most general-purpose silicon BJT transistors in cheap 
 plastic TO-92 package should work. For Q1 and Q3 choose
 some with Ic >= 0.7A and Vceo >= 40V. Other parts values
-are not too critical.
+are not too critical. If 8kHz input accidentaly receives
+constant DC signal instead of 8kHz PWM, Q1 and L1 can overheat
+and damage.
 
 Mains voltage 230V AC can be shocking if touched.
