@@ -25,7 +25,8 @@ running on linux with USB-serial module FT232R.
 
 The 36V power supply is weak and it might not be
 sufficient for M-Bus loaded with many devices.
-Lower R5 value should be used for more devices on the bus,
+Lower R5 value should be used for more devices on the bus so that
+Q4 doesn't conduct on quiet M-Bus,
 experimental range is 82-390 ohm.
 
 Most general-purpose silicon BJT transistors in cheap 
