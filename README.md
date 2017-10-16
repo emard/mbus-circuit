@@ -8,7 +8,7 @@ from 5V to 36V.
 
 Tested with one 
 ![Schrack "EPH"](/pic/schrack-kwh-mbus.jpg)
-kWh-meter connected to pins 23
+kWh-meter connected to M-Bus pins 23
 and 24 (both polarities work).
 Software used was [python M-Bus implementation](https://github.com/ganehag/pyMeterBus)
 running on linux with USB-serial module FT232R.
