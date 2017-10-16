@@ -402,9 +402,9 @@ TX
 Text GLabel 1900 4300 0    60   Input ~ 0
 8kHz
 Text Notes 5400 4300 0    60   ~ 0
-3.3V TTL Serial output
-Text Notes 2250 4850 0    60   ~ 0
-3.3V TTL Serial input
+3.3V TTL\nSerial output
+Text Notes 2650 4900 0    60   ~ 0
+3.3V TTL\nSerial input
 Text Notes 1150 4450 0    60   ~ 0
 f=8kHz \n58% DTC\n3.3V input
 Text Notes 4600 5050 0    60   ~ 0
