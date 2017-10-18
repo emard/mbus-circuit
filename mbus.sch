@@ -181,9 +181,7 @@ $EndComp
 Wire Wire Line
 	3100 3600 3100 4200
 Wire Wire Line
-	3100 3600 3650 3600
-Wire Wire Line
-	3700 3600 4550 3600
+	3100 3600 4550 3600
 Wire Wire Line
 	3450 3600 3450 3700
 Wire Wire Line
