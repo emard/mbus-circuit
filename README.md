@@ -12,9 +12,9 @@ Tested with one
 connected to M-Bus pins 23
 and 24 (any polarity works).
 Software used was [python M-Bus implementation](https://github.com/ganehag/pyMeterBus)
-running on linux with USB-serial module FT232R. It also works with my
-[wifi-mbus](https://github.com/emard/wifi-mbus).
-8kHz PWM is generated with ESP8266:
+running on linux with USB-serial module FT232R. 
+ESP8266 [wifi-mbus](https://github.com/emard/wifi-mbus)
+can reads this kWh meter. 8kHz PWM is generated with:
 
     #define PWM_PIN 5 // GPIO5 is labeled "~D1" on PCB
     pinMode(PWM_PIN, OUTPUT);
@@ -30,6 +30,9 @@ sufficient for M-Bus loaded with many devices.
 Lower R5 value should be used for more devices on the bus so that
 Q4 doesn't conduct on quiet M-Bus,
 experimental range is 82-390 ohm.
+
+ESP8266 needs a reasonable 3.3V regulater,
+I used LM1117-3.3 in TO-220 package.
 
 Most general-purpose silicon BJT transistors in cheap 
 plastic TO-92 package should work. For Q1 and Q3 choose
