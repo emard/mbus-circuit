@@ -13,7 +13,7 @@ connected to M-Bus pins 23
 and 24 (any polarity works).
 Software used was [python M-Bus implementation](https://github.com/ganehag/pyMeterBus)
 running on linux with USB-serial module FT232R. It also works with my
-[wifi-mbus](https://github.com/emard/mbus-circuit).
+[wifi-mbus](https://github.com/emard/wifi-mbus).
 8kHz PWM is generated with ESP8266:
 
     #define PWM_PIN 5 // GPIO5 is labeled "~D1" on PCB
