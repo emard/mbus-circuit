@@ -14,7 +14,7 @@ and 24 (any polarity works).
 Software used was [python M-Bus implementation](https://github.com/ganehag/pyMeterBus)
 running on linux with USB-serial module FT232R. 
 ESP8266 [wifi-mbus](https://github.com/emard/wifi-mbus)
-can reads this kWh meter. 8kHz PWM is generated with:
+reads this kWh meter. 8kHz PWM is generated with:
 
     #define PWM_PIN 5 // GPIO5 is labeled "~D1" on PCB
     pinMode(PWM_PIN, OUTPUT);
